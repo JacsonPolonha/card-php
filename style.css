@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    width: 70px;
+    margin-left: 20px;
+}
+
+/*.body {
+    display: inline-block;
+    margin: auto; 
+    width: 100%;
+}*/
+
+.content {
+    justify-content: center;
+    background-color: #F2F2F2;
+
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+
+
+.menu {
+    width: 100%;
+    background-color: #BFB0A3;  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu li {
+    display: inline;
+    margin: 0 0 0 10px;
+    padding: 5px 20px;
+}
+
+.menu li:hover {
+    background-color: #F25C05;
+}
+
+.cards {
+    width: 300px;
+    margin: 15px 5px;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 2px;
+    display: flex;
+    flex-direction: column;
+    background-color: #BFA288;
+    box-shadow: gray 5px 5px 10px;
+    border-radius: 5px;
+
+    overflow: auto;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover {
+    color: #fff;
+    transition: 1s;
+}
+
+.mais {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin-top: 20px;
+    background-color: #F25C05;
+    padding: 5px 0;
+    border-radius: 5px;
+    
+}
+
+.mais:hover {
+    background-color: #8C3908;
+    color: #fff;
+}
+
+.excluir {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin-top: 20px;
+    background-color: #ff0000;
+    padding: 5px 0;
+    border-radius: 5px;
+}
+
+.form {
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+input[Type=text] {
+    margin: 10px 0;
+    line-height: 20pt;
+}
+
+.texto {
+   width: 100%;
+   height: 400px; 
+}
+
+textarea{
+    width: 100%;
+}
+
+input[type=submit] {
+    margin-top: 10px;
+    width: 100px;
+    margin: 30px auto;
+    padding: 5px 10px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+    background-color: #BFB0A3;
+    width: 100%;
+    
+}
